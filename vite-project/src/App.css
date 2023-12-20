@@ -47,27 +47,27 @@
     border-radius: 8px;
   }
   
-  /* Style for the "d" container */
+  
   .d {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  /* Style for the title */
+  
   .titulo {
     margin: 0;
     color: #fff;
     font-size: 24px;
   }
   
-  /* Style for the form */
+  
   form {
     display: flex;
     align-items: center;
   }
   
-  /* Style for the input field */
+  
   input {
     padding: 10px;
     margin-right: 10px;
@@ -76,7 +76,7 @@
     font-size: 16px;
   }
   
-  /* Style for the button */
+  
   .btno {
     padding: 10px 15px;
     background-color: #007bff;
@@ -88,7 +88,7 @@
     transition: background-color 0.3s ease-in-out;
   }
   
-  /* Hover effect for the button */
+ 
   .btno:hover {
     background-color: #0056b3;
   }
