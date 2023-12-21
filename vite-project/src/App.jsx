@@ -15,7 +15,7 @@ function App() {
   const [trailer, setTrailer] = useState(null);
   const [movie, setMovie] = useState({ title: "Loading Movies"});
   const [playing, setPlaying] = useState(false);
-
+  
   const fetchMovies = async(buscarKey) =>{
     const type = buscarKey ? "search" : "discover"
     const {data: { results },
